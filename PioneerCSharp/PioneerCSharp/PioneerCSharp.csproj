@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="7_kyu\GrowthOfPopulation\Citizens.cs" />
     <Compile Include="7_kyu\ShortestWordTask\ShortestWord.cs" />
     <Compile Include="7_kyu\TwoToOne.cs" />
     <Compile Include="Program.cs" />
@@ -53,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="7_kyu\DescTwoToOne.txt" />
+    <Content Include="7_kyu\GrowthOfPopulation\Citizens.txt" />
     <Content Include="7_kyu\ShortestWordTask\ShortestWord.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
