@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="7_kyu\ShortestWordTask\ShortestWord.cs" />
     <Compile Include="7_kyu\TwoToOne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="7_kyu\DescTwoToOne.txt" />
+    <Content Include="7_kyu\ShortestWordTask\ShortestWord.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
