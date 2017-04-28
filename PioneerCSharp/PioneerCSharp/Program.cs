@@ -10,6 +10,7 @@ namespace PioneerCSharp
     {
         static void Main(string[] args)
         {
+            SortByValueAndIndex.SortElement(new int[] { 2, 3, 4, 23,5 });
         }
     }
 }
