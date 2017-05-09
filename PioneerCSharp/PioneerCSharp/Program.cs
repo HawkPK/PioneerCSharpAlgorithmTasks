@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PioneerCSharp.LINQ;
 
 namespace PioneerCSharp
 {
@@ -10,7 +11,9 @@ namespace PioneerCSharp
     {
         static void Main(string[] args)
         {
-            SortByValueAndIndex.SortElement(new int[] { 2, 3, 4, 23,5 });
+            Content content = new Content();
+            content.FindTheFiveLargerFiles();
+            content.FindTheFiveLargerFilesWithLinq();
         }
     }
 }

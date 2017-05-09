@@ -12,14 +12,15 @@ namespace PionnerCSharp.Test._7_kyu_test.ExesAndOhsTest
     public class ExesAndOhsTest
     {
         [TestMethod]
-        public void IsNumberOfXANDOEqual()
+        public void IsNumberOfXandoEqual()
        { 
             Assert.AreEqual(true, ExesAndOhs.Compute("ooxx"));
             Assert.AreEqual(true, ExesAndOhs.ComputeRef("ooxx"));
+
         }
 
         [TestMethod]
-        public void IsNumberOfXANDONotEqual()
+        public void IsNumberOfXandoNotEqual()
         {
             Assert.AreEqual(false, ExesAndOhs.Compute("ooxxx"));
             Assert.AreEqual(false, ExesAndOhs.ComputeRef("ooxxx"));
