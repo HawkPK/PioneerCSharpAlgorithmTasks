@@ -56,6 +56,7 @@
     <Compile Include="7_kyu_test\SortArrayTest\SortByValueAndIndexTest.cs" />
     <Compile Include="7_kyu_test\TheHiddenWordTest\HiddenWordTest.cs" />
     <Compile Include="7_kyu_test\TwoToOneTest.cs" />
+    <Compile Include="7_kyu_test\VowelCountTest\KataTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

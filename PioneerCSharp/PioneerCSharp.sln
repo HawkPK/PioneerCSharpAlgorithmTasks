@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerCSharp", "PioneerCSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PionnerCSharp.Test", "PionnerCSharp.Test\PionnerCSharp.Test.csproj", "{04FA0D56-327F-409D-8762-B859A6D07384}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqCars", "LinqCars\LinqCars.csproj", "{5022037D-A20D-48AC-897E-DEF115504FCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{04FA0D56-327F-409D-8762-B859A6D07384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04FA0D56-327F-409D-8762-B859A6D07384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04FA0D56-327F-409D-8762-B859A6D07384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5022037D-A20D-48AC-897E-DEF115504FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5022037D-A20D-48AC-897E-DEF115504FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5022037D-A20D-48AC-897E-DEF115504FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5022037D-A20D-48AC-897E-DEF115504FCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
