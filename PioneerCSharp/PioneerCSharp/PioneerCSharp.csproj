@@ -52,6 +52,7 @@
     <Compile Include="7_kyu\GrowthOfPopulation\Citizens.cs" />
     <Compile Include="7_kyu\RemoveMinimum.cs" />
     <Compile Include="7_kyu\ShortestWordTask\ShortestWord.cs" />
+    <Compile Include="7_kyu\SumOddNum\Kata.cs" />
     <Compile Include="7_kyu\TheHiddenWord\HiddenWord.cs" />
     <Compile Include="7_kyu\TwoToOne.cs" />
     <Compile Include="7_kyu\VowelCount\Kata.cs" />

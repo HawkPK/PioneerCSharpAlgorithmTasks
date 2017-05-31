@@ -59,6 +59,7 @@
     <Compile Include="7_kyu_test\RemoveMinimumTest.cs" />
     <Compile Include="7_kyu_test\ShortestWordTask\ShortestWordTest.cs" />
     <Compile Include="7_kyu_test\SortArrayTest\SortByValueAndIndexTest.cs" />
+    <Compile Include="7_kyu_test\SumOddNumTest\SumOddNumTest.cs" />
     <Compile Include="7_kyu_test\TheHiddenWordTest\HiddenWordTest.cs" />
     <Compile Include="7_kyu_test\TwoToOneTest.cs" />
     <Compile Include="7_kyu_test\VowelCountTest\KataTest.cs" />
