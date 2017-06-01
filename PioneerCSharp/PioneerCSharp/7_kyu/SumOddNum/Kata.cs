@@ -21,11 +21,11 @@ namespace PioneerCSharp._7_kyu.SumOddNum
 {
     public class Kata
     {
-        private static int result = 0;
-        private static int baza = 0;
+        private static long result = 0;
+        private static long baza = 0;
 
 
-        public static int rowSumOddNumberBasis(int v)
+        public static long rowSumOddNumberBasis(long v)
         {
             result = 0;
             baza = 1;
@@ -50,7 +50,34 @@ namespace PioneerCSharp._7_kyu.SumOddNum
             return result;
         }
 
-        public static int rowSumOddNumber(int v)
+
+        public static long rowSumOddNumberBasisRef(long v)
+        {
+            result = 0;
+            baza = BaseNumberToStartCompute(v);
+
+            for (int i = 0; i < v; i++)
+            {
+                result += (baza);
+                baza += 2;
+            }
+
+            return result;
+        }
+
+        private static long BaseNumberToStartCompute(long v)
+        {
+            long baza = v > 1 ? 3 : 1;
+
+            for (int i = 2; i < v; i++)
+            {
+                baza += i * 2;
+            }
+
+            return baza;
+        }
+
+        public static long rowSumOddNumber(long v)
         {
             if(v == 1)
             {
