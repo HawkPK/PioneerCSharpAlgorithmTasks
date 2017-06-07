@@ -54,6 +54,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="7_kyu_test\CreditMaskTest.cs" />
     <Compile Include="7_kyu_test\ExesAndOhsTest\ExesAndOhsTest.cs" />
     <Compile Include="7_kyu_test\GrowthOfPopulationTest\CitizensTest.cs" />
     <Compile Include="7_kyu_test\RemoveMinimumTest.cs" />
