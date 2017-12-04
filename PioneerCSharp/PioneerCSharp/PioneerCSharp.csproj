@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="5_kyu\SimplePigLatin\SimplePigLatin.cs" />
     <Compile Include="7_kyu\CreditMask.cs" />
     <Compile Include="7_kyu\ExesAndOhs\ExesAndOhs.cs" />
     <Compile Include="7_kyu\GrowthOfPopulation\Citizens.cs" />
@@ -71,6 +72,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="5_kyu\SimplePigLatin\SimplePigLatin.txt" />
     <Content Include="7_kyu\DescTwoToOne.txt" />
     <Content Include="7_kyu\ExesAndOhs\ExesAndOhs.txt" />
     <Content Include="7_kyu\GrowthOfPopulation\Citizens.txt" />
